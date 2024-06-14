@@ -1,0 +1,543 @@
+5
+give the bluetooth address to pair with the remote device ::81:39:96:EB:0C:41
+the bluetooth address ::81:39:96:EB:0C:41
+[12-06-2024][12:16:55.473590][GAP] Inside GAP_Pair
+[12-06-2024][12:16:55.473672][GAP] Inside search_dev_db
+[12-06-2024][12:16:55.473704][GAP] Local Device is not in Master Role, sending slave security request
+[12-06-2024][12:16:55.473734][L2C] Length of Data sending = 2
+[12-06-2024][12:16:55.473762][HCI] inside HCI_SendData
+[12-06-2024][12:16:55.473806][HCI] after signalling
+fail to pair with the device
+.......MENU......
+1. StartSensor 
+2. Start Notifying clients
+3. random
+4. set the data length
+5. Exit
+Select the option
+[12-06-2024][12:16:55.473904][MGM] HCI_AllowedDataSend is 3
+[12-06-2024][12:16:55.474091][HCI] Inside HCI_ProcessTxData
+[12-06-2024][12:16:55.474148][HCI] No fragmentation
+[12-06-2024][12:16:55.474190][HCI] Con Handle = 0x0001
+
+[12-06-2024][12:16:55.474555][PAL] Total Time in microseconds (Hex) 61aabbf89d37a
+
+[12-06-2024][12:16:55.474636][PAL] Total Time in microseconds + EPOCH (Hex) e2f85eceb9537a
+
+[12-06-2024][12:16:55.474837][HCI] Sending event for Tx Done
+[12-06-2024][12:16:55.474890][L2C] L2CAP_Callback
+[12-06-2024][12:16:55.474940][L2C] Tx done event for CID = 0x06
+[12-06-2024][12:16:55.474982][L2C] search_channel_index
+[12-06-2024][12:16:55.475022][SMP] Inside smp_l2cap_data_callback
+[12-06-2024][12:16:55.475067][SMP] Inside handle_smp_tx_done_evt
+[12-06-2024][12:16:55.475108][SMP] Received Tx Done for SMP Command : 0B
+[12-06-2024][12:16:55.475159][L2C] End of L2CAP_Callback
+[12-06-2024][12:16:55.552061][PAL] libusb: Read the event
+[12-06-2024][12:16:55.552244][PAL] Total Time in microseconds (Hex) 61aabbf8b02f3
+
+[12-06-2024][12:16:55.552324][PAL] Total Time in microseconds + EPOCH (Hex) e2f85eceba82f3
+
+[12-06-2024][12:16:55.552440][HCI] Event is :
+[12-06-2024][12:16:55.552469][HCI] 13
+[12-06-2024][12:16:55.552505][HCI] 05
+[12-06-2024][12:16:55.552539][HCI] 01
+[12-06-2024][12:16:55.552570][HCI] 01
+[12-06-2024][12:16:55.552603][HCI] 00
+[12-06-2024][12:16:55.552635][HCI] 01
+[12-06-2024][12:16:55.552666][HCI] 00
+[12-06-2024][12:16:55.552699][HCI] Updated Controller buffers = 3
+[12-06-2024][12:16:58.116317][PAL] libusb: Data received 15
+[12-06-2024][12:16:58.116435][PAL] Recieved in usb 11 bytes
+[12-06-2024][12:16:58.116566][PAL] Total Time in microseconds (Hex) 61aabbfb223d6
+
+[12-06-2024][12:16:58.116646][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee1a3d6
+
+[12-06-2024][12:16:58.116760][HCI] First fragment
+
+[12-06-2024][12:16:58.116788][HCI] No recombination
+
+[12-06-2024][12:16:58.116809][HCI] data received (1st frag) : 
+
+[12-06-2024][12:16:58.116829][HCI] In HCI_ProcessRxData l2capdata len = 7
+[12-06-2024][12:16:58.116850][L2C] L2CAP_Callback
+[12-06-2024][12:16:58.116869][L2C] CID = 0x06
+[12-06-2024][12:16:58.116894][L2C] search_channel_index
+[12-06-2024][12:16:58.116919][SMP] Inside smp_l2cap_data_callback
+[12-06-2024][12:16:58.116939][SMP] Inside handle_smp_rx_data_evt
+[12-06-2024][12:16:58.116961][SMP] REQUEST 01
+[12-06-2024][12:16:58.116981][SMP] Inside handle_pair_request
+[12-06-2024][12:16:58.117005][SMP] Inside find_pairing_method
+[12-06-2024][12:16:58.117024][SMP] Selected pairing method1 : 01
+[12-06-2024][12:16:58.117048][SMP] Inside smp_search_attempt_db
+
+[12-06-2024][12:16:58.117071][SMP] Inside function create_attempt_entry
+
+[12-06-2024][12:16:58.117095][SMP] Inside smp_search_attempt_db
+
+[12-06-2024][12:16:58.117117][SMP] Inside smp_start_timer
+[12-06-2024][12:16:58.117176][SMP] SMP Timer started
+[12-06-2024][12:16:58.117202][L2C] Length of Data sending = 7
+[12-06-2024][12:16:58.117223][HCI] inside HCI_SendData
+[12-06-2024][12:16:58.117248][HCI] after signalling
+[12-06-2024][12:16:58.117270][L2C] End of L2CAP_Callback
+[12-06-2024][12:16:58.117293][MGM] HCI_AllowedDataSend is 3
+[12-06-2024][12:16:58.117315][HCI] Inside HCI_ProcessTxData
+[12-06-2024][12:16:58.117337][HCI] No fragmentation
+[12-06-2024][12:16:58.117359][HCI] Con Handle = 0x0001
+
+[12-06-2024][12:16:58.117672][PAL] Total Time in microseconds (Hex) 61aabbfb22828
+
+[12-06-2024][12:16:58.117750][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee1a828
+
+[12-06-2024][12:16:58.117864][HCI] Sending event for Tx Done
+[12-06-2024][12:16:58.117891][L2C] L2CAP_Callback
+[12-06-2024][12:16:58.117914][L2C] Tx done event for CID = 0x06
+[12-06-2024][12:16:58.117938][L2C] search_channel_index
+[12-06-2024][12:16:58.117961][SMP] Inside smp_l2cap_data_callback
+[12-06-2024][12:16:58.117983][SMP] Inside handle_smp_tx_done_evt
+[12-06-2024][12:16:58.118056][SMP] Received Tx Done for SMP Command : 02
+[12-06-2024][12:16:58.118085][L2C] End of L2CAP_Callback
+[12-06-2024][12:16:58.207068][PAL] libusb: Read the event
+[12-06-2024][12:16:58.207169][PAL] libusb: Data received 31
+[12-06-2024][12:16:58.207239][PAL] Recieved in usb 27 bytes
+[12-06-2024][12:16:58.207301][PAL] Total Time in microseconds (Hex) 61aabbfb38644
+
+[12-06-2024][12:16:58.207372][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee30644
+
+[12-06-2024][12:16:58.207449][PAL] libusb: Data received 31
+[12-06-2024][12:16:58.207470][HCI] Event is :
+[12-06-2024][12:16:58.207517][PAL] Recieved in usb 27 bytes
+[12-06-2024][12:16:58.207531][HCI] 13
+[12-06-2024][12:16:58.207582][HCI] 05
+[12-06-2024][12:16:58.207603][HCI] 01
+[12-06-2024][12:16:58.207620][HCI] 01
+[12-06-2024][12:16:58.207639][HCI] 00
+[12-06-2024][12:16:58.207657][HCI] 01
+[12-06-2024][12:16:58.207677][HCI] 00
+[12-06-2024][12:16:58.207697][HCI] Updated Controller buffers = 3
+[12-06-2024][12:16:58.207721][PAL] Total Time in microseconds (Hex) 61aabbfb387e9
+
+[12-06-2024][12:16:58.207742][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee307e9
+
+[12-06-2024][12:16:58.207807][PAL] libusb: Data received 19
+[12-06-2024][12:16:58.207812][HCI] First fragment
+
+[12-06-2024][12:16:58.207883][PAL] Recieved in usb 15 bytes
+[12-06-2024][12:16:58.207917][HCI] recombination is needed
+
+[12-06-2024][12:16:58.207994][HCI] data received (first frag- contd) : 
+                                                                         p    
+                                                                              痪   R   Z
+
+[12-06-2024][12:16:58.208020][PAL] Total Time in microseconds (Hex) 61aabbfb38914
+
+[12-06-2024][12:16:58.208041][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee30914
+
+[12-06-2024][12:16:58.208147][HCI] Continuation packet
+
+[12-06-2024][12:16:58.208172][HCI] data received (intermediate):  k{  <  )[   : T  }  .   
+
+[12-06-2024][12:16:58.208192][PAL] Total Time in microseconds (Hex) 61aabbfb389c0
+
+[12-06-2024][12:16:58.208210][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee309c0
+
+[12-06-2024][12:16:58.208272][HCI] Continuation packet
+
+[12-06-2024][12:16:58.208291][HCI] last fragment
+
+[12-06-2024][12:16:58.208308][HCI] In HCI_ProcessRxData l2capdata len = 65
+[12-06-2024][12:16:58.208325][HCI] data received (last frag) : }  B t 悇    U
+
+[12-06-2024][12:16:58.208344][L2C] L2CAP_Callback
+[12-06-2024][12:16:58.208368][L2C] CID = 0x06
+[12-06-2024][12:16:58.208389][L2C] search_channel_index
+[12-06-2024][12:16:58.208410][SMP] Inside smp_l2cap_data_callback
+[12-06-2024][12:16:58.208429][SMP] Inside handle_smp_rx_data_evt
+[12-06-2024][12:16:58.208447][SMP] REQUEST 0c
+[12-06-2024][12:16:58.208471][GAP] inside GAP_GetDevRole
+[12-06-2024][12:16:58.208490][GAP] Inside search_dev_db
+[12-06-2024][12:16:58.208509][GAP] Role : 01
+[12-06-2024][12:16:58.208530][L2C] Length of Data sending = 65
+[12-06-2024][12:16:58.208550][HCI] inside HCI_SendData
+[12-06-2024][12:16:58.208570][HCI] after signalling
+[12-06-2024][12:16:58.208589][L2C] End of L2CAP_Callback
+[12-06-2024][12:16:58.208609][MGM] HCI_AllowedDataSend is 3
+[12-06-2024][12:16:58.208628][HCI] Inside HCI_ProcessTxData
+[12-06-2024][12:16:58.208648][HCI] Fragmentation is needed
+[12-06-2024][12:16:58.208946][PAL] Total Time in microseconds (Hex) 61aabbfb38cb1
+
+[12-06-2024][12:16:58.209013][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee30cb1
+
+[12-06-2024][12:16:58.209447][PAL] Total Time in microseconds (Hex) 61aabbfb38ea6
+
+[12-06-2024][12:16:58.209514][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee30ea6
+
+[12-06-2024][12:16:58.209874][PAL] Total Time in microseconds (Hex) 61aabbfb39051
+
+[12-06-2024][12:16:58.209941][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee31051
+
+[12-06-2024][12:16:58.210084][HCI] Sending event for Tx Done
+[12-06-2024][12:16:58.210114][L2C] L2CAP_Callback
+[12-06-2024][12:16:58.210132][L2C] Tx done event for CID = 0x06
+[12-06-2024][12:16:58.210151][L2C] search_channel_index
+[12-06-2024][12:16:58.210168][SMP] Inside smp_l2cap_data_callback
+[12-06-2024][12:16:58.210187][SMP] Inside handle_smp_tx_done_evt
+[12-06-2024][12:16:58.210206][SMP] Received Tx Done for SMP Command : 0C
+[12-06-2024][12:16:58.210226][GAP] inside GAP_GetDevRole
+[12-06-2024][12:16:58.210243][GAP] Inside search_dev_db
+[12-06-2024][12:16:58.210262][GAP] Role : 01
+[12-06-2024][12:16:58.210281][HCI] Inside HCI_SendCommand
+[12-06-2024][12:16:58.210300][HCI] cmd support : 1
+
+[12-06-2024][12:16:58.210407][L2C] Length of Data sending = 17
+[12-06-2024][12:16:58.210433][HCI] inside HCI_SendData
+[12-06-2024][12:16:58.210453][HCI] after signalling
+[12-06-2024][12:16:58.210473][L2C] End of L2CAP_Callback
+[12-06-2024][12:16:58.210492][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.210512][HCI] Processing Cmd opcode 2026 7c0013b0
+
+[12-06-2024][12:16:58.210533][HCI] OGF : 08 OCF : 0026
+
+[12-06-2024][12:16:58.210553][HCI] Paramlen = 64 param = fa1cb4d0
+
+[12-06-2024][12:16:58.211395][PAL] send command wrote 67 bytes
+[12-06-2024][12:16:58.211461][PAL] Total Time in microseconds (Hex) 61aabbfb39685
+
+[12-06-2024][12:16:58.211487][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee31685
+
+[12-06-2024][12:16:58.211573][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.211595][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.211614][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.211633][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.211652][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.211670][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.211939][PAL] libusb: Read the event
+[12-06-2024][12:16:58.212103][PAL] Total Time in microseconds (Hex) 61aabbfb39906
+
+[12-06-2024][12:16:58.212177][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee31906
+
+[12-06-2024][12:16:58.212261][HCI] Event is :
+[12-06-2024][12:16:58.212282][HCI] 0f
+[12-06-2024][12:16:58.212307][HCI] 04
+[12-06-2024][12:16:58.212326][HCI] 00
+[12-06-2024][12:16:58.212345][HCI] 01
+[12-06-2024][12:16:58.212363][HCI] 26
+[12-06-2024][12:16:58.212382][HCI] 20
+[12-06-2024][12:16:58.212401][HCI] Inside cmd_status_evt_handle
+[12-06-2024][12:16:58.212420][HCI] status : 00
+
+[12-06-2024][12:16:58.212441][HCI] Waiting for complete event
+[12-06-2024][12:16:58.212461][HCI] command opcode: 0x2026
+[12-06-2024][12:16:58.212481][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.236081][PAL] libusb: Read the event
+[12-06-2024][12:16:58.236273][PAL] Total Time in microseconds (Hex) 61aabbfb3f770
+
+[12-06-2024][12:16:58.236342][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee37770
+
+[12-06-2024][12:16:58.236431][HCI] Event is :
+[12-06-2024][12:16:58.236451][HCI] 3e
+[12-06-2024][12:16:58.236476][HCI] 22
+[12-06-2024][12:16:58.236495][HCI] 09
+[12-06-2024][12:16:58.236514][HCI] 12
+[12-06-2024][12:16:58.236532][HCI] ff
+[12-06-2024][12:16:58.236550][HCI] ff
+[12-06-2024][12:16:58.236568][HCI] ff
+[12-06-2024][12:16:58.236607][HCI] ff
+[12-06-2024][12:16:58.236626][HCI] ff
+[12-06-2024][12:16:58.236644][HCI] ff
+[12-06-2024][12:16:58.236733][HCI] ff
+[12-06-2024][12:16:58.236751][HCI] ff
+[12-06-2024][12:16:58.236769][HCI] ff
+[12-06-2024][12:16:58.236787][HCI] ff
+[12-06-2024][12:16:58.236805][HCI] ff
+[12-06-2024][12:16:58.236823][HCI] ff
+[12-06-2024][12:16:58.236841][HCI] ff
+[12-06-2024][12:16:58.236859][HCI] ff
+[12-06-2024][12:16:58.236877][HCI] ff
+[12-06-2024][12:16:58.236894][HCI] ff
+[12-06-2024][12:16:58.236912][HCI] ff
+[12-06-2024][12:16:58.236931][HCI] ff
+[12-06-2024][12:16:58.236949][HCI] ff
+[12-06-2024][12:16:58.236966][HCI] ff
+[12-06-2024][12:16:58.236984][HCI] ff
+[12-06-2024][12:16:58.237002][HCI] ff
+[12-06-2024][12:16:58.237020][HCI] ff
+[12-06-2024][12:16:58.237038][HCI] ff
+[12-06-2024][12:16:58.237055][HCI] ff
+[12-06-2024][12:16:58.237073][HCI] ff
+[12-06-2024][12:16:58.237091][HCI] ff
+[12-06-2024][12:16:58.237109][HCI] ff
+[12-06-2024][12:16:58.237127][HCI] ff
+[12-06-2024][12:16:58.237145][HCI] ff
+[12-06-2024][12:16:58.237163][HCI] ff
+[12-06-2024][12:16:58.237181][HCI] ff
+[12-06-2024][12:16:58.237199][HCI] inside le_evt_handle : 9
+
+[12-06-2024][12:16:58.237220][HCI] cmd removed from sent_cmd_list
+[12-06-2024][12:16:58.237240][GAP] Inside hci_event_callback
+[12-06-2024][12:16:58.237258][GAP] HCI event 3e with status 12 received
+[12-06-2024][12:16:58.237279][GAP] Received DHKey event
+[12-06-2024][12:16:58.237298][SMP] Failed to generate dhkey
+[12-06-2024][12:16:58.237317][SMP] Inside send_pairing_failed
+[12-06-2024][12:16:58.237338][L2C] Length of Data sending = 2
+[12-06-2024][12:16:58.237359][HCI] inside HCI_SendData
+[12-06-2024][12:16:58.237379][HCI] after signalling
+[12-06-2024][12:16:58.237398][SMP] Inside delete_node_from_db
+[12-06-2024][12:16:58.237417][SMP] No device with such addr is stored in the database
+[12-06-2024][12:16:58.237437][SMP] Inside smp_search_attempt_db
+
+[12-06-2024][12:16:58.237457][SMP] 
+timer changed from 30000 -> 60000
+
+[12-06-2024][12:16:58.237478][SMP] Stop timer
+[12-06-2024][12:16:58.237497][SMP] Inside smp_stop_timer
+[12-06-2024][12:16:58.237535][GAP] Adding device to white list
+81 39 96 eb 0c 41 
+[12-06-2024][12:16:58.237569][HCI] Inside HCI_SendCommand
+[12-06-2024][12:16:58.237589][HCI] cmd support : 1
+
+[12-06-2024][12:16:58.237611][GAT] Received encrption change or key refresh event
+[12-06-2024][12:16:58.237630][GAT] Context has no information
+[12-06-2024][12:16:58.237650][HRP] unsupported event recieved 12
+
+[12-06-2024][12:16:58.237671][GAP] End of SMP event callback
+[12-06-2024][12:16:58.237692][HCI] Processing Cmd opcode 2011 800018c0
+
+[12-06-2024][12:16:58.237714][HCI] OGF : 08 OCF : 0011
+
+[12-06-2024][12:16:58.237735][HCI] Paramlen = 7 param = fa1d0830
+
+[12-06-2024][12:16:58.238262][PAL] send command wrote 10 bytes
+[12-06-2024][12:16:58.238328][PAL] Total Time in microseconds (Hex) 61aabbfb3ff78
+
+[12-06-2024][12:16:58.238353][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee37f78
+
+[12-06-2024][12:16:58.238443][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.238466][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.238485][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.238943][PAL] libusb: Read the event
+[12-06-2024][12:16:58.239073][PAL] Total Time in microseconds (Hex) 61aabbfb40261
+
+[12-06-2024][12:16:58.239142][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee38261
+
+[12-06-2024][12:16:58.239223][HCI] Event is :
+[12-06-2024][12:16:58.239245][HCI] 0e
+[12-06-2024][12:16:58.239265][HCI] 04
+[12-06-2024][12:16:58.239282][HCI] 01
+[12-06-2024][12:16:58.239301][HCI] 11
+[12-06-2024][12:16:58.239318][HCI] 20
+[12-06-2024][12:16:58.239336][HCI] 00
+[12-06-2024][12:16:58.239354][HCI] Inside cmd_comp_evt_handle
+[12-06-2024][12:16:58.239373][HCI] status : 00
+
+[12-06-2024][12:16:58.239393][HCI] New Value of num_allowed_cmds = 01
+[12-06-2024][12:16:58.239413][HCI] cmd removed from sent_cmd_list
+[12-06-2024][12:16:58.239433][GAP] Inside hci_event_callback
+[12-06-2024][12:16:58.239452][GAP] HCI event 0e with status 0 received
+[12-06-2024][12:16:58.239472][GAP] Device is Added to/removed from whitelist successfully
+[12-06-2024][12:16:58.239493][GAP] Device added to WL by application
+[12-06-2024][12:16:58.239513][GAP] inside add_dev_to_wl_cb
+[12-06-2024][12:16:58.239532][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.252024][PAL] libusb: Read the event
+[12-06-2024][12:16:58.252208][PAL] Total Time in microseconds (Hex) 61aabbfb435af
+
+[12-06-2024][12:16:58.252284][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee3b5af
+
+[12-06-2024][12:16:58.252383][HCI] Event is :
+[12-06-2024][12:16:58.252405][HCI] 13
+[12-06-2024][12:16:58.252423][HCI] 05
+[12-06-2024][12:16:58.252440][HCI] 01
+[12-06-2024][12:16:58.252456][HCI] 01
+[12-06-2024][12:16:58.252476][HCI] 00
+[12-06-2024][12:16:58.252494][HCI] 01
+[12-06-2024][12:16:58.252513][HCI] 00
+[12-06-2024][12:16:58.252529][HCI] Updated Controller buffers = 1
+[12-06-2024][12:16:58.252551][MGM] HCI_AllowedDataSend is 1
+[12-06-2024][12:16:58.252576][HCI] Inside HCI_ProcessTxData
+[12-06-2024][12:16:58.252596][HCI] No fragmentation
+[12-06-2024][12:16:58.252615][HCI] Con Handle = 0x0001
+
+[12-06-2024][12:16:58.252911][PAL] Total Time in microseconds (Hex) 61aabbfb4386e
+
+[12-06-2024][12:16:58.252940][PAL] libusb: Read the event
+[12-06-2024][12:16:58.252985][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee3b86e
+
+[12-06-2024][12:16:58.253154][HCI] Sending event for Tx Done
+[12-06-2024][12:16:58.253179][L2C] L2CAP_Callback
+[12-06-2024][12:16:58.253197][L2C] Tx done event for CID = 0x06
+[12-06-2024][12:16:58.253216][L2C] search_channel_index
+[12-06-2024][12:16:58.253233][SMP] Inside smp_l2cap_data_callback
+[12-06-2024][12:16:58.253252][SMP] Inside handle_smp_tx_done_evt
+[12-06-2024][12:16:58.253271][SMP] Received Tx Done for SMP Command : 03
+[12-06-2024][12:16:58.253293][L2C] End of L2CAP_Callback
+[12-06-2024][12:16:58.253312][MGM] HCI_AllowedDataSend is 0
+[12-06-2024][12:16:58.253332][PAL] Total Time in microseconds (Hex) 61aabbfb43a14
+
+[12-06-2024][12:16:58.253352][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee3ba14
+
+[12-06-2024][12:16:58.253418][HCI] Event is :
+[12-06-2024][12:16:58.253437][HCI] 13
+[12-06-2024][12:16:58.253454][HCI] 05
+[12-06-2024][12:16:58.253470][HCI] 01
+[12-06-2024][12:16:58.253486][HCI] 01
+[12-06-2024][12:16:58.253502][HCI] 00
+[12-06-2024][12:16:58.253541][HCI] 01
+[12-06-2024][12:16:58.253560][HCI] 00
+[12-06-2024][12:16:58.253579][HCI] Updated Controller buffers = 1
+[12-06-2024][12:16:58.253599][MGM] HCI_AllowedDataSend is 1
+[12-06-2024][12:16:58.253618][HCI] Inside HCI_ProcessTxData
+[12-06-2024][12:16:58.253637][HCI] No fragmentation
+[12-06-2024][12:16:58.253656][HCI] Con Handle = 0x0001
+
+[12-06-2024][12:16:58.253867][PAL] Total Time in microseconds (Hex) 61aabbfb43c2b
+
+[12-06-2024][12:16:58.253906][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee3bc2b
+
+[12-06-2024][12:16:58.254016][HCI] Sending event for Tx Done
+[12-06-2024][12:16:58.254047][L2C] L2CAP_Callback
+[12-06-2024][12:16:58.254067][L2C] Tx done event for CID = 0x06
+[12-06-2024][12:16:58.254087][L2C] search_channel_index
+[12-06-2024][12:16:58.254107][SMP] Inside smp_l2cap_data_callback
+[12-06-2024][12:16:58.254126][SMP] Inside handle_smp_tx_done_evt
+[12-06-2024][12:16:58.254144][SMP] Received Tx Done for SMP Command : 05
+[12-06-2024][12:16:58.254164][L2C] End of L2CAP_Callback
+[12-06-2024][12:16:58.297074][PAL] libusb: Read the event
+[12-06-2024][12:16:58.297082][PAL] libusb: Data received 10
+[12-06-2024][12:16:58.297256][PAL] Total Time in microseconds (Hex) 61aabbfb4e5a7
+
+[12-06-2024][12:16:58.297279][PAL] Recieved in usb 6 bytes
+[12-06-2024][12:16:58.297332][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee465a7
+
+[12-06-2024][12:16:58.297463][HCI] Event is :
+[12-06-2024][12:16:58.297488][HCI] 13
+[12-06-2024][12:16:58.297506][HCI] 05
+[12-06-2024][12:16:58.297523][HCI] 01
+[12-06-2024][12:16:58.297539][HCI] 01
+[12-06-2024][12:16:58.297557][HCI] 00
+[12-06-2024][12:16:58.297576][HCI] 01
+[12-06-2024][12:16:58.297594][HCI] 00
+[12-06-2024][12:16:58.297613][HCI] Updated Controller buffers = 1
+[12-06-2024][12:16:58.297636][PAL] Total Time in microseconds (Hex) 61aabbfb4e723
+
+[12-06-2024][12:16:58.297656][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee46723
+
+[12-06-2024][12:16:58.297724][HCI] First fragment
+
+[12-06-2024][12:16:58.297745][HCI] No recombination
+
+[12-06-2024][12:16:58.297764][HCI] data received (1st frag) : 
+
+
+[12-06-2024][12:16:58.297784][HCI] In HCI_ProcessRxData l2capdata len = 2
+[12-06-2024][12:16:58.297804][L2C] L2CAP_Callback
+[12-06-2024][12:16:58.297823][L2C] CID = 0x06
+[12-06-2024][12:16:58.297842][L2C] search_channel_index
+[12-06-2024][12:16:58.297862][SMP] Inside smp_l2cap_data_callback
+[12-06-2024][12:16:58.297881][SMP] Inside handle_smp_rx_data_evt
+[12-06-2024][12:16:58.297904][SMP] REQUEST 05
+[12-06-2024][12:16:58.297911][PAL] libusb: Read the event
+[12-06-2024][12:16:58.297927][GAP] Inside GAP_Disconnect
+[12-06-2024][12:16:58.298063][GAP] inside get con handle
+[12-06-2024][12:16:58.298083][GAP] 96398101: address :::
+[12-06-2024][12:16:58.298102][GAP] f8f326c8: address1 :::
+[12-06-2024][12:16:58.298171][GAP] Conn handle = 01
+[12-06-2024][12:16:58.298191][HCI] Inside HCI_SendCommand
+[12-06-2024][12:16:58.298211][HCI] cmd support : 1
+
+[12-06-2024][12:16:58.298232][GAP] HCI_SendCommand returned status 1
+[12-06-2024][12:16:58.298252][L2C] End of L2CAP_Callback
+[12-06-2024][12:16:58.298273][PAL] Total Time in microseconds (Hex) 61aabbfb4e9a1
+
+[12-06-2024][12:16:58.298294][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee469a1
+
+[12-06-2024][12:16:58.298366][HCI] Event is :
+[12-06-2024][12:16:58.298386][HCI] 13
+[12-06-2024][12:16:58.298405][HCI] 05
+[12-06-2024][12:16:58.298423][HCI] 01
+[12-06-2024][12:16:58.298441][HCI] 01
+[12-06-2024][12:16:58.298460][HCI] 00
+[12-06-2024][12:16:58.298478][HCI] 01
+[12-06-2024][12:16:58.298497][HCI] 00
+[12-06-2024][12:16:58.298515][HCI] Updated Controller buffers = 2
+[12-06-2024][12:16:58.298535][HCI] Processing Cmd opcode 0406 7c0013b0
+
+[12-06-2024][12:16:58.298555][HCI] OGF : 01 OCF : 0006
+
+[12-06-2024][12:16:58.298575][HCI] Paramlen = 3 param = 800018f0
+
+[12-06-2024][12:16:58.299134][PAL] send command wrote 6 bytes
+[12-06-2024][12:16:58.299200][PAL] Total Time in microseconds (Hex) 61aabbfb4ed40
+
+[12-06-2024][12:16:58.299225][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee46d40
+
+[12-06-2024][12:16:58.299963][PAL] libusb: Read the event
+[12-06-2024][12:16:58.300117][PAL] Total Time in microseconds (Hex) 61aabbfb4f0d4
+
+[12-06-2024][12:16:58.300185][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee470d4
+
+[12-06-2024][12:16:58.300266][HCI] Event is :
+[12-06-2024][12:16:58.300289][HCI] 0f
+[12-06-2024][12:16:58.300310][HCI] 04
+[12-06-2024][12:16:58.300328][HCI] 00
+[12-06-2024][12:16:58.300345][HCI] 01
+[12-06-2024][12:16:58.300364][HCI] 06
+[12-06-2024][12:16:58.300380][HCI] 04
+[12-06-2024][12:16:58.300398][HCI] Inside cmd_status_evt_handle
+[12-06-2024][12:16:58.300417][HCI] status : 00
+
+[12-06-2024][12:16:58.300437][HCI] Waiting for complete event
+[12-06-2024][12:16:58.300456][HCI] command opcode: 0x46
+[12-06-2024][12:16:58.342157][PAL] libusb: Read the event
+[12-06-2024][12:16:58.342336][PAL] Total Time in microseconds (Hex) 61aabbfb595bf
+
+[12-06-2024][12:16:58.342409][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee515bf
+
+[12-06-2024][12:16:58.342502][HCI] Event is :
+[12-06-2024][12:16:58.342524][HCI] 13
+[12-06-2024][12:16:58.342543][HCI] 05
+[12-06-2024][12:16:58.342559][HCI] 01
+[12-06-2024][12:16:58.342575][HCI] 01
+[12-06-2024][12:16:58.342594][HCI] 00
+[12-06-2024][12:16:58.342613][HCI] 01
+[12-06-2024][12:16:58.342632][HCI] 00
+[12-06-2024][12:16:58.342650][HCI] Updated Controller buffers = 3
+[12-06-2024][12:16:58.387078][PAL] libusb: Read the event
+[12-06-2024][12:16:58.387264][PAL] Total Time in microseconds (Hex) 61aabbfb6453f
+
+[12-06-2024][12:16:58.387336][PAL] Total Time in microseconds + EPOCH (Hex) e2f85ecee5c53f
+
+[12-06-2024][12:16:58.387426][HCI] Event is :
+[12-06-2024][12:16:58.387448][HCI] 05
+[12-06-2024][12:16:58.387466][HCI] 04
+[12-06-2024][12:16:58.387482][HCI] 00
+[12-06-2024][12:16:58.387499][HCI] 01
+[12-06-2024][12:16:58.387535][HCI] 00
+[12-06-2024][12:16:58.387554][HCI] 16
+[12-06-2024][12:16:58.387574][HCI] inside disconn_evt_handle
+[12-06-2024][12:16:58.387596][HCI] cmd removed from sent_cmd_list
+[12-06-2024][12:16:58.387616][HCI] status in discon evt handle : 0
+
+[12-06-2024][12:16:58.387636][GAP] Inside hci_event_callback
+[12-06-2024][12:16:58.387655][GAP] HCI event 05 with status 0 received
+[12-06-2024][12:16:58.387676][GAP] Inside search_dev_db
+[12-06-2024][12:16:58.387696][SMP] Disconnected from device
+[12-06-2024][12:16:58.387715][SMP] 81
+[12-06-2024][12:16:58.387734][SMP] 39
+[12-06-2024][12:16:58.387752][SMP] 96
+[12-06-2024][12:16:58.387770][SMP] eb
+[12-06-2024][12:16:58.387788][SMP] 0c
+[12-06-2024][12:16:58.387806][SMP] 41
+[12-06-2024][12:16:58.387827][GAT] LE link disconneceted with reason 16 from device
+[12-06-2024][12:16:58.387847][GAT] 81
+[12-06-2024][12:16:58.387865][GAT] 39
+[12-06-2024][12:16:58.387884][GAT] 96
+[12-06-2024][12:16:58.387902][GAT] eb
+[12-06-2024][12:16:58.387920][GAT] 0c
+[12-06-2024][12:16:58.387939][GAT] 41
+[12-06-2024][12:16:58.387961][HRP] Disconnection Event recived
+[12-06-2024][12:16:58.387981][HRP] GetDeviceInfo
+[12-06-2024][12:16:58.388000][HRP] Not found in HRP database
+[12-06-2024][12:16:58.388020][HCI] No tx packets are queued for this handle
+[12-06-2024][12:16:58.388040][HCI] No commands are in queue
+
+
